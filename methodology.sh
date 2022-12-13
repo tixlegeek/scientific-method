@@ -1,11 +1,3 @@
-# scientific-method
-Scientific method helpers, and stuff i make mainly for my niece and I. 
-
-## scientific method bash script
-
-![screenshot](./screenshot.png)
-
-```bash
 #!/bin/bash
 METHOD=$(cat << 'EOF'
 1,Poser un problème,Formuler une question ou un sujet à étudier.,33
@@ -29,5 +21,3 @@ for i in $foldesc; do
 done
 IFS=$','
 done <<< $METHOD
-```
-
